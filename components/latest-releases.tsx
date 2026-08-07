@@ -18,16 +18,17 @@ export function LatestReleases() {
         </p>
       </div>
 
-      <div className="h-[480px] w-full overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
+      {/* Container disesuaikan ukurannya agar fleksibel di mobile (min 352px - max 450px) */}
+      <div className="w-full min-h-[352px] md:h-[450px] overflow-hidden rounded-xl border border-zinc-800 bg-zinc-950">
         <iframe
           title="Endru Van Discography on Spotify"
           src="https://open.spotify.com/embed/artist/5fmyXU0h8SRdGyh3WwINz8?utm_source=generator&theme=0"
           width="100%"
-          height="100%"
+          height="352"
           frameBorder="0"
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
-          className="h-full w-full border-0"
+          className="w-full h-[352px] md:h-[450px] border-0 rounded-xl"
         />
       </div>
     </section>
