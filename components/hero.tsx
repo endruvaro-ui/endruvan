@@ -4,8 +4,8 @@ import { artist, releases, remixes } from '@/lib/site-data'
 const stats = [
   { k: 'Genre', v: artist.genre },
   { k: 'Based', v: artist.based },
-  { k: 'Releases', v: `${releases.length}+` },
-  { k: 'Remixes', v: `${remixes.length}` },
+  { k: 'Releases', v: `56+` },
+  { k: 'Remixes', v: `68` },
 ]
 
 export function Hero() {
