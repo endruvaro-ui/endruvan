@@ -18,17 +18,23 @@ export function LatestReleases() {
         </p>
       </div>
 
-      {/* Container disesuaikan ukurannya agar fleksibel di mobile (min 352px - max 450px) */}
-      <div className="w-full min-h-[352px] md:h-[450px] overflow-hidden rounded-xl border border-zinc-800 bg-zinc-950">
+      {/* Perbaikan Utama: Memaksa tinggi fixed di mobile dengan h-[380px] */}
+      {/* Kita tambahkan latar belakang gelap (bg-black) agar jika loading lama, tidak terlihat putih */}
+      <div className="w-full h-[380px] md:h-[480px] overflow-hidden rounded-xl border border-zinc-800 bg-black shadow-2xl">
         <iframe
           title="Endru Van Discography on Spotify"
+          // URL dengan theme=0 dipastikan benar
           src="https://open.spotify.com/embed/artist/5fmyXU0h8SRdGyh3WwINz8?utm_source=generator&theme=0"
           width="100%"
-          height="352"
+          // Kita berikan tinggi atribut sedikit lebih besar untuk mengantisipasi padding browser mobile
+          height="380" 
           frameBorder="0"
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-          className="w-full h-[352px] md:h-[450px] border-0 rounded-xl"
+          // Atribut loading="lazy" dihilangkan sementara untuk tes jika ini penyebabnya di browser HP tertentu
+          // loading="lazy" 
+          className="w-full h-full border-0 rounded-xl"
+          // Style tambahan untuk memastikan latar belakang iframe transparan
+          style={{ background: "transparent" }}
         />
       </div>
     </section>
