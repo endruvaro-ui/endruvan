@@ -84,20 +84,16 @@ export function Catalogue() {
             {artist.playlist.name}
           </h3>
           
-          {/* Perbaikan pada Container dan URL Iframe */}
-          <div className="w-full h-[352px] overflow-hidden rounded-xl border border-border bg-black shadow-2xl">
-            <iframe
-              title={`${artist.playlist.name} on Spotify`}
-              /* Mengapus &theme=0 agar player playlist tidak rusak/putih di browser HP */
-              src={`https://open.spotify.com/embed/playlist/${artist.playlist.id}?utm_source=generator`}
-              width="100%"
-              height={352}
-              loading="lazy"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              className="w-full h-full border-0 rounded-xl bg-black"
-              style={{ colorScheme: 'dark' }}
-            />
-          </div>
+          {/* Player diset ke tinggi 152px (Compact Mode) untuk menghilangkan area putih di HP */}
+          <iframe
+            title={`${artist.playlist.name} on Spotify`}
+            src={`https://open.spotify.com/embed/playlist/${artist.playlist.id}?utm_source=generator`}
+            width="100%"
+            height={152}
+            loading="lazy"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            className="w-full h-[152px] rounded-xl border border-border bg-black"
+          />
         </div>
       </div>
     </section>
