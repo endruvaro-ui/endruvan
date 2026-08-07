@@ -83,15 +83,21 @@ export function Catalogue() {
           <h3 className="font-mono text-[11px] uppercase tracking-[0.24em] text-primary">
             {artist.playlist.name}
           </h3>
-          <iframe
-            title={`${artist.playlist.name} on Spotify`}
-            src={`https://open.spotify.com/embed/playlist/${artist.playlist.id}?utm_source=generator&theme=0`}
-            width="100%"
-            height={352}
-            loading="lazy"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            className="w-full border border-border bg-card"
-          />
+          
+          {/* Perbaikan pada Container dan URL Iframe */}
+          <div className="w-full h-[352px] overflow-hidden rounded-xl border border-border bg-black shadow-2xl">
+            <iframe
+              title={`${artist.playlist.name} on Spotify`}
+              /* Mengapus &theme=0 agar player playlist tidak rusak/putih di browser HP */
+              src={`https://open.spotify.com/embed/playlist/${artist.playlist.id}?utm_source=generator`}
+              width="100%"
+              height={352}
+              loading="lazy"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              className="w-full h-full border-0 rounded-xl bg-black"
+              style={{ colorScheme: 'dark' }}
+            />
+          </div>
         </div>
       </div>
     </section>
