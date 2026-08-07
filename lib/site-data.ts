@@ -33,7 +33,6 @@ export const artist = {
     url: 'https://open.spotify.com/playlist/65TalfthKshrSIyWjKElDw',
   },
   bookingEmail: 'booking@endruvan.com',
-  managementEmail: 'management@endruvan.com',
 }
 
 /**
