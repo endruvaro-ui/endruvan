@@ -30,7 +30,7 @@ export function About() {
             ))}
           </div>
 
-          <dl className="grid grid-cols-2 gap-6 border-t border-border pt-8">
+          <dl className="grid grid-cols-1 gap-6 border-t border-border pt-8">
             <div className="flex flex-col gap-1">
               <dt className="font-mono text-[10px] uppercase tracking-[0.24em] text-muted-foreground">
                 Bookings
@@ -41,19 +41,6 @@ export function About() {
                   className="font-mono text-sm text-primary hover:underline"
                 >
                   {artist.bookingEmail}
-                </a>
-              </dd>
-            </div>
-            <div className="flex flex-col gap-1">
-              <dt className="font-mono text-[10px] uppercase tracking-[0.24em] text-muted-foreground">
-                Management
-              </dt>
-              <dd>
-                <a
-                  href={`mailto:${artist.managementEmail}`}
-                  className="font-mono text-sm text-primary hover:underline"
-                >
-                  {artist.managementEmail}
                 </a>
               </dd>
             </div>
