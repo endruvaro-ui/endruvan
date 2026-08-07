@@ -291,18 +291,18 @@ export const instagramPosts = [
     src: '/images/ig-4.png',
     alt: 'Empty industrial venue filled with haze before doors open',
     href: IG,
-    caption: 'One hour before doors',
+    caption: 'Visualizer and art',
   },
   {
     src: '/images/ig-5.png',
     alt: 'Moody studio portrait of Endru Van lit by a monitor glow',
     href: IG,
-    caption: 'Studio, 03:00',
+    caption: 'Endru Van ',
   },
   {
     src: '/images/ig-6.png',
     alt: 'Vinyl record spinning on a turntable in near darkness',
     href: IG,
-    caption: 'Radiance In Motion — out now',
+    caption: 'New Id Track',
   },
 ]
