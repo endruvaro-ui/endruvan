@@ -215,6 +215,16 @@ export const preSaves = [
  * OFFICIAL REMIXES — YouTube.
  */
 export const remixes = [
+   {
+    title: 'Distorted Love',
+    original: 'Korolova, Be No Rain',
+    url: 'https://youtu.be/xhGKr5k6w1Y?si=hC1LdAPnnGDYyws0',
+  },
+  {
+    title: 'White Flag',
+    original: 'Dido',
+    url: 'https://youtu.be/AqyMALdpJ9Q?si=4uK0S_aVa9vEmL4W',
+  },
   {
     title: 'Wake Me Up',
     original: 'Avicii',
@@ -224,6 +234,11 @@ export const remixes = [
     title: 'Beautiful',
     original: 'Anyma, Joji',
     url: 'https://youtu.be/AOEdw2D-QLY',
+  },
+  {
+    title: 'My Heart Will Go On',
+    original: 'Celine Dion',
+    url: 'https://youtu.be/9H2YgYqZpHw',
   },
   {
     title: 'Shadows',
@@ -244,16 +259,6 @@ export const remixes = [
     title: 'Giving Up Air',
     original: 'The Temper Trap',
     url: 'https://youtu.be/I89IHrJGL94',
-  },
-  {
-    title: 'My Heart Will Go On',
-    original: 'Celine Dion',
-    url: 'https://youtu.be/9H2YgYqZpHw',
-  },
-  {
-    title: 'Distorted Love',
-    original: 'Korolova, Be No Rain',
-    url: 'https://on.soundcloud.com/BDnZylNlO7LfSOaxDb',
   },
 ]
 
