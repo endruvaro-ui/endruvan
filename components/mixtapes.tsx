@@ -6,7 +6,7 @@ export function Mixtapes() {
   return (
     <section id="mixtapes" className="border-t border-border bg-card/40">
       <div className="mx-auto w-full max-w-6xl px-5 py-20 md:px-8 md:py-28">
-        <SectionHeading label="07 / Mixtapes" title="DJ Mixes & Soundscapes" />
+        <SectionHeading label="03 / Mixtapes" title="DJ Mixes & Soundscapes" />
         
         <div className="mt-12 grid gap-4 sm:grid-cols-2">
           {mixtapes.map((mix) => (
