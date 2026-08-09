@@ -5,6 +5,7 @@ import { Hero } from '@/components/hero'
 import { InstagramFeed } from '@/components/instagram-feed'
 import { LatestReleases } from '@/components/latest-releases'
 import { Marquee } from '@/components/marquee'
+import { Mixtapes } from '@/components/mixtapes'
 import { SiteFooter } from '@/components/site-footer'
 import { SiteNav } from '@/components/site-nav'
 import { Support } from '@/components/support'
@@ -22,6 +23,7 @@ export default function Page() {
         <About />
         <Support />
         <ExtraSocials />
+        <Mixtapes />
       </main>
       <SiteFooter />
     </>
