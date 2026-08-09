@@ -15,7 +15,7 @@ export const artist = {
     'Descending into the shadows — driving, hypnotic beats and haunting synth work built for the peak-time underground.',
   bio: [
     'Endru Van produces melodic techno that lives in the darker realms of the genre. Driving, hypnotic beats fused with signature haunting synth work, engineered for a raw and atmospheric energy that belongs to the peak-time underground.',
-    'Released across Excess, Calisto, Etheral Echoes, Exx Boundles, Eclipse, Wyld, CardStellar Waves Records, Row Records, Cafe De Anatolia, Addictive Sound, Eessarc and Hypecue, with a catalogue spanning originals and official remixes of Avicii, Mrak, Anyma, John Summit, Argy and Korolova. Charted at #1 on the Indonesia Dance Chart with "Loves Fall".',
+    'Released across Excess, Calisto, Etheral Echoes, Exx Boundles, Eclipse, Wyld Card, Stellar Waves Records, Row Records, Cafe De Anatolia, Addictive Sound, Eessarc and Hypecue, with a catalogue spanning originals and official remixes of Avicii, Mrak, Anyma, John Summit, Argy and Korolova. Charted at #1 on the Indonesia Dance Chart with "Loves Fall".',
   ],
   socials: {
     instagram: 'https://www.instagram.com/endruvan_ofc',
