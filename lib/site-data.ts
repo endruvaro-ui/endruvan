@@ -36,6 +36,42 @@ export const artist = {
 }
 
 /**
+ * SUPPORT & PLATFORM FEATURES
+ * ---------------------------
+ * Music features and artist profiles on external curation platforms.
+ */
+export const supports = [
+  {
+    name: 'Seven Stars Egypt',
+    url: 'https://www.sevenstarsegypt.com/artists/cmlha8ca100pqdqbug332gwxb',
+  },
+  {
+    name: 'Volumo',
+    url: 'https://volumo.com/artist/801203-endru-van?si=88YscrkSY5Xo7vYV',
+  },
+]
+
+/**
+ * EXTRA SOCIAL NETWORKS
+ * ---------------------
+ * Additional social media channels (excluding main platforms like IG, Spotify, Beatport).
+ */
+export const extraSocials = [
+  {
+    name: 'SoundCloud',
+    url: 'https://soundcloud.com/endruvan_ofc',
+  },
+  {
+    name: 'Apple Music',
+    url: 'https://music.apple.com/id/artist/endru-van/1597003716',
+  },
+  {
+    name: 'Facebook',
+    url: 'https://www.facebook.com/endruvan_ofc',
+  },
+]
+
+/**
  * LATEST RELEASES
  * ---------------
  * spotifyId  → the ID at the end of a Spotify link.
