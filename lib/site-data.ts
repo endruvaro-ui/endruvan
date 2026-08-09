@@ -76,6 +76,19 @@ export const extraSocials = [
 ]
 
 /**
+ * MIXTAPES / DJ SETS
+ * ------------------
+ * Exclusive DJ mixes, live sets, and radio shows.
+ */
+export const mixtapes = [
+  {
+    title: 'Evtherey Soundscapes Mixtape 001',
+    duration: 'MIXCLOUD',
+    url: 'https://www.mixcloud.com/Endru_Van/evtherey-soundscapes-endru-van-mixtape-001/',
+  },
+]
+
+/**
  * LATEST RELEASES
  * ---------------
  * spotifyId  → the ID at the end of a Spotify link.
