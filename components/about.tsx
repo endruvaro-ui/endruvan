@@ -17,7 +17,7 @@ export function About() {
         </div>
 
         <div className="flex flex-col gap-8">
-          <SectionHeading label="04 / Bio" title="About" />
+          <SectionHeading label="05 / Bio" title="About" />
 
           <div className="flex flex-col gap-5">
             {artist.bio.map((paragraph) => (
