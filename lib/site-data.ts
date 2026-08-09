@@ -82,6 +82,11 @@ export const extraSocials = [
  */
 export const mixtapes = [
   {
+    title: 'Evtherey Soundscapes Mixtape 002',
+    duration: 'MIXCLOUD',
+    url: 'https://www.mixcloud.com/Endru_Van/endru-van-evtherey-soundscapes-002-the-underground-session/',
+  },
+  {
     title: 'Evtherey Soundscapes Mixtape 001',
     duration: 'MIXCLOUD',
     url: 'https://www.mixcloud.com/Endru_Van/evtherey-soundscapes-endru-van-mixtape-001/',
