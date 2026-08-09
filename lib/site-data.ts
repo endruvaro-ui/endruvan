@@ -49,6 +49,10 @@ export const supports = [
     name: 'Volumo',
     url: 'https://volumo.com/artist/801203-endru-van?si=88YscrkSY5Xo7vYV',
   },
+  {
+    name: 'Payhip',
+    url: 'https://payhip.com/EndruVan',
+  },
 ]
 
 /**
