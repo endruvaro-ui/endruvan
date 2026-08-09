@@ -19,11 +19,11 @@ export default function Page() {
         <Marquee />
         <LatestReleases />
         <Catalogue />
+        <Mixtapes />
         <InstagramFeed />
         <About />
-        <Support />
         <ExtraSocials />
-        <Mixtapes />
+        <Support />
       </main>
       <SiteFooter />
     </>
