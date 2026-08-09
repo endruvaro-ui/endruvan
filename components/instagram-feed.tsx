@@ -10,7 +10,7 @@ export function InstagramFeed() {
       className="mx-auto w-full max-w-6xl px-5 py-20 md:px-8 md:py-28"
     >
       <SectionHeading
-        label="03 / Feed"
+        label="04 / Feed"
         title="Instagram"
         description="Booth views, studio nights and unreleased loops."
         action={
