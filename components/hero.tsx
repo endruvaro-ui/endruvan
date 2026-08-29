@@ -5,7 +5,7 @@ const stats = [
   { k: 'Genre', v: artist.genre },
   { k: 'Based', v: artist.based },
   { k: 'Releases', v: `56+` },
-  { k: 'Remixes', v: `68` },
+  { k: 'Remixes', v: `70+` },
 ]
 
 export function Hero() {
