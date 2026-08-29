@@ -273,6 +273,16 @@ export const preSaves = [
  */
 export const remixes = [
    {
+    title: 'Bad Angel',
+    original: 'Anyma, Lisa',
+    url: 'https://youtu.be/N8pMnVBppoQ?si=ikJL8xJ5-4I8Aw_f',
+  },
+     {
+    title: 'Endless',
+    original: 'Mathame, JEX',
+    url: 'https://youtu.be/PYwX1j9omcU?si=3-pWhCA4EXADMZt_',
+  },
+   {
     title: 'Distorted Love',
     original: 'Korolova, Be No Rain',
     url: 'https://youtu.be/xhGKr5k6w1Y?si=hC1LdAPnnGDYyws0',
