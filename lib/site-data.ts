@@ -317,16 +317,6 @@ export const remixes = [
     original: 'Argy, Omiki',
     url: 'https://youtu.be/yZhnDz1z2us',
   },
-  {
-    title: 'Forever Till The End',
-    original: 'Rivo, CLOVES',
-    url: 'https://youtu.be/8-kyymXNYZ4',
-  },
-  {
-    title: 'Giving Up Air',
-    original: 'The Temper Trap',
-    url: 'https://youtu.be/I89IHrJGL94',
-  },
 ]
 
 /**
