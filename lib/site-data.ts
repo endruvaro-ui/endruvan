@@ -246,10 +246,20 @@ export const preSaves = [
     artists: 'Zoldiex, Endru Van',
     url: 'https://go.protonradio.com/r/rla8CcyHDwWlY',
   },
+   {
+    title: 'Everything',
+    artists: 'Endru Van',
+    url: 'https://exxb.fanlink.tv/everything',
+  },
   {
     title: 'Light',
     artists: 'Untold Myth, Endru Van',
     url: 'https://go.protonradio.com/r/rlNtesTrFLguw',
+  },
+  {
+    title: 'Myself',
+    artists: 'Endru Van',
+    url: 'https://exxboundless.fanlink.tv/myself',
   },
   {
     title: 'Dark Opera',
@@ -265,6 +275,11 @@ export const preSaves = [
     title: 'Monochrome',
     artists: 'Unitech, Marta Mark, Endru Van',
     url: 'https://go.protonradio.com/r/rleCYcGtnG_iI',
+  },
+  {
+    title: 'Etherial Pulse',
+    artists: 'Endru Van',
+    url: 'go.protonradio.com/r/rlOrzvsEMx1r8',
   },
 ]
 
