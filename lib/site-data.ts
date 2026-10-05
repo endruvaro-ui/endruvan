@@ -239,7 +239,7 @@ export const preSaves = [
   {
     title: 'Bumba',
     artists: 'Endru Van, Fadlie',
-    url: 'https://push.fm/fl/bumba',
+    url: 'https://go.protonradio.com/r/rlhJ9Nt-eH78o',
   },
    {
     title: 'Obscure Dimensions',
