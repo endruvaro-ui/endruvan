@@ -232,6 +232,16 @@ export const releases: Release[] = [
  */
 export const preSaves = [
   {
+    title: 'Silicon Mirage',
+    artists: 'Endru Van',
+    url: 'https://tinyurl.com/yc45km6w',
+  },
+  {
+    title: 'Bumba',
+    artists: 'Endru Van, Fadlie',
+    url: 'https://push.fm/fl/bumba',
+  },
+   {
     title: 'Obscure Dimensions',
     artists: 'Endru Van',
     url: 'https://go.protonradio.com/r/rlAHoiqe_k-M8',
